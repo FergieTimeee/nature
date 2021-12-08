@@ -1,0 +1,232 @@
+/* PlayfarirDisplay */
+
+@font-face {
+    font-family: "PlayfarirDisplay Black";
+    src: url("../font/PlayfairDisplay-Black.ttf");
+}
+
+@font-face {
+    font-family: "PlayfarirDisplay BlackItalic";
+    src: url("../font/PlayfairDisplay-BlackItalic.ttf");
+}
+
+@font-face {
+    font-family: "PlayfarirDisplay Bold";
+    src: url("../font/PlayfairDisplay-Bold.ttf");
+}
+
+@font-face {
+    font-family: "PlayfarirDisplay BoldItalic";
+    src: url("../font/PlayfairDisplay-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "PlayfarirDisplay ExtraBold";
+    src: url("../font/PlayfairDisplay-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "PlayfarirDisplay ExtraBoldItalic";
+    src: url("../font/PlayfairDisplay-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "PlayfarirDisplay Italic";
+    src: url("../font/PlayfairDisplay-Italic.ttf");
+}
+
+@font-face {
+    font-family: "PlayfarirDisplay Medium";
+    src: url("../font/PlayfairDisplay-Medium.ttf");
+}
+
+@font-face {
+    font-family: "PlayfarirDisplay MediumItalic";
+    src: url("../font/PlayfairDisplay-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "PlayfarirDisplay Regular";
+    src: url("../font/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PlayfarirDisplay SemiBold";
+    src: url("../font/PlayfairDisplay-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "PlayfarirDisplay SemiBoldItalic";
+    src: url("../font/PlayfairDisplay-SemiBoldItalic.ttf");
+}
+
+
+/* Roboto  */
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url("../font/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "Roboto BlackItalic";
+    src: url("../font/Roboto-BlackItalic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../font/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto BoldItalic";
+    src: url("../font/Roboto-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Italic";
+    src: url("../font/Roboto-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url("../font/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboto LightItalic";
+    src: url("../font/Roboto-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("../font/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto MediumItalic";
+    src: url("../font/Roboto-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../font/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Thin";
+    src: url("../font/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: "Roboto ThinItalic";
+    src: url("../font/Roboto-ThinItalic.ttf");
+}
+
+
+/* Basr style */
+
+html {
+    font-size: 14px;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: "Roboto Regular", sans-serif;
+    color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--heading-color);
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 1.85rem;
+    /*26/14/*/
+}
+
+h2 {
+    font-size: 1.71rem;
+    /*24/14 */
+}
+
+h3 {
+    font-size: 1.57rem;
+    /*22/12*/
+}
+
+h4 {
+    font-size: 1.42rem;
+    /*20/14*/
+}
+
+h5 {
+    font-size: 1.28rem;
+    /*18/14*/
+}
+
+h6 {
+    font-size: 1.14rem;
+    /*16/14*/
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    padding: 10px 15px;
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.btn-large {
+    padding: 12px 35px;
+}
+
+
+/* Style default section-box */
+
+.section-box {
+    padding: 100px 0;
+}
+
+.section-title {
+    color: var(--heading-color);
+    font-family: "PlayfarirDisplay Medium";
+    font-size: 3.21rem;
+    font-weight: 700;
+}
+
+.section-subtitle {
+    font-family: "Roboto Regular", sans-serif;
+    font-weight: 300;
+    color: var(--heading-color);
+    margin: 10px 0 60px;
+}

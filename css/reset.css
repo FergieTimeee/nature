@@ -1,0 +1,24 @@
+/* Reset tất cá thành phần HTML */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    outline: none;
+}
+
+
+/* Khai báo biến */
+
+:root {
+    --container-width: 1170px;
+    --coloum-padding: 10px;
+    --primary-color: #253993;
+    /*Màu chủ đạo*/
+    --text-color: #808080;
+    /*Màu chữ*/
+    --heading-color: #121212;
+    /*Màu các thẻ heading(h1,h2,h3,h4,h5,h6)*/
+    --link-color: #000;
+}

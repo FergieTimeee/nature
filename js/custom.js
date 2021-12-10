@@ -84,10 +84,10 @@ $(document).ready(function() {
         dots: false,
         responsive: {
             0: {
-                items: 1
+                items: 5
             },
             600: {
-                items: 2
+                items: 5
             },
             1000: {
                 items: 5

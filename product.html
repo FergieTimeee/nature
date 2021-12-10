@@ -35,7 +35,7 @@
     <section class="product-detail section-box">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-5 col-sm-5">
                     <div class="product-detail__images">
                         <div class="product-detail__images--thumbnail">
                             <a href="images/product1.jpg">
@@ -69,7 +69,7 @@
                     </div>
                     <!--End .product-detail__images-->
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 col-md-7 col-sm-7">
                     <div class="product-detail__info">
                         <h2 class="product-detail__info--title">
                             Casual Shirt With Ruffle Hem
@@ -115,7 +115,7 @@
                         <!--End .product-detail__info--desc-->
                         <div class="product-detail__info--attribute">
                             <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <label for="">Sort by</label>
                                     <select name="" id="">
                                         <option value="">Small</option>
@@ -123,7 +123,7 @@
                                         <option value="">Large</option>
                                     </select>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                     <label for="">Color</label>
                                     <select name="" id="">
                                         <option value="">Blue</option>
@@ -154,36 +154,305 @@
                     <!--End .product-detail__info-->
 
                 </div>
-                <div class="product-detail__tabs">
-                    <input type="radio" name="product_tab_radio" id="product_tab_radio_1">
-                    <input type="radio" name="product_tab_radio" id="product_tab_radio_2">
-                    <ul class="product-detail__tabs--nav">
-                        <li><label for="product_tab_radio_1">Description</label></li>
-                        <li><label for="product_tab_radio_2">Reviews (1)</label></li>
-                    </ul>
-                    <!--End .product-detail__tabs--nav-->
-                    <div class="product-detail__tabs--content">
-                        <div class="tabs__panel">
-                            <p> <strong>More room to move.</strong></p>
-                            <p> With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.</p>
-                            <p> <strong>Cover Flow.</strong></p>
-                            <p> Browse through your music collection by flipping through album art. Select an album to turn it over and see the track list.</p>
-                            <p> <strong>Enhanced interface.</strong></p>
-                            <p> Experience a whole new way to browse and view your music and video.</p>
-                            <p> <strong>Sleeker design.</strong></p>
-                            <p> Beautiful, durable, and sleeker than ever, iPod classic now features an anodized aluminum and polished stainless steel enclosure with rounded edges.</p>
-                        </div>
-                        <!--End .tabs__panel-->
-                        <div class="tabs__panel">
-                            <p>Forrm with</p>
-                        </div>
-                    </div>
-                    <!--End .product-detail__tabs--content-->
-                </div>
-                <!--End .product-detail__tabs-->
-            </div>
 
-        </div>
+            </div>
+            <!--End .row-->
+            <div class="product-detail__tabs">
+                <input type="radio" name="product_tab_radio" id="product_tab_radio_1" checked>
+                <input type="radio" name="product_tab_radio" id="product_tab_radio_2">
+                <ul class="product-detail__tabs--nav">
+                    <li><label for="product_tab_radio_1">Description</label></li>
+                    <li><label for="product_tab_radio_2">Reviews (1)</label></li>
+                </ul>
+                <!--End .product-detail__tabs--nav-->
+                <div class="product-detail__tabs--content">
+                    <div class="tabs__panel">
+                        <p> <strong>More room to move.</strong></p>
+                        <p> With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or up to 200 hours of video or any combination wherever you go.
+                        </p>
+                        <p> <strong>Cover Flow.</strong></p>
+                        <p> Browse through your music collection by flipping through album art. Select an album to turn it over and see the track list.</p>
+                        <p> <strong>Enhanced interface.</strong></p>
+                        <p> Experience a whole new way to browse and view your music and video.</p>
+                        <p> <strong>Sleeker design.</strong></p>
+                        <p> Beautiful, durable, and sleeker than ever, iPod classic now features an anodized aluminum and polished stainless steel enclosure with rounded edges.</p>
+                    </div>
+                    <!--End .tabs__panel-->
+                    <div class="tabs__panel review-tab">
+                        <h4>Write a review</h4>
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">Your Name</label>
+                                <input class="form-control" type="text" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Your Review</label>
+                                <textarea class="form-control" placeholder="Your Review"></textarea>
+                                <p class="note"><span>Note:</span>HTML is not translated!</p>
+
+                            </div>
+                            <div class="form-group rating-wrap">
+                                <span>Rating</span>
+                                <span>
+                                    <label for="">Bad</label>
+                                    <input name="rating_radio" type="radio">
+                                    <input name="rating_radio" type="radio">
+                                    <input name="rating_radio" type="radio">
+                                    <input name="rating_radio" type="radio">
+                                    <input name="rating_radio" type="radio">
+                                    <label for="">Good</label>
+                                </span>
+                            </div>
+                            <p class="btn-wrap"> <button type="submit" class="btn btn-large">Continue</button></p>
+                        </form>
+                    </div>
+                </div>
+                <!--End .product-detail__tabs--content-->
+            </div>
+            <!--End .product-detail__tabs-->
+            <div class="product-detail__related section-box product__box product-home">
+                <h2 class="product-detail__related--title">Related Products</h2>
+                <div class="product-box--list owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="product-box--item">
+                            <div class="item__thumbnail">
+                                <a href="#">
+                                    <img src="images/product2.jpg" alt="">
+                                    <img src="images/product2-2.jpg" alt="">
+                                </a>
+                            </div>
+                            <!--End .item__thumnail-->
+                            <div class="item__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star no-rate"></i>
+                            </div>
+                            <!--End .item__rating-->
+                            <h3 class="item__title">
+                                <a href="#">Casual Shirt With Ruffle Hem</a>
+                            </h3>
+                            <!--End .item__title-->
+                            <p class="item__price">
+                                $122.00
+                            </p>
+                            <!--End .item__price-->
+                            <div class="item__action">
+                                <span class="item__action-first">
+                                    <a href="#" class="btn"><i class="far fa-heart"></i></a>
+                                    <a href="#" class="btn"><i class="fas fa-exchange-alt"></i></a>
+                                    <a href="#" class="btn"><i class="fas fa-eye"></i></a>
+                                </span>
+                                <span class="item__action-end">
+                                    <a href="#" class="btn">Add to Cart</a>
+                                </span>
+                            </div>
+                            <!--End .item__action-->
+                        </div>
+                        <!--End .product-box--item-->
+                    </div>
+                    <div class="item">
+                        <div class="product-box--item">
+                            <div class="item__thumbnail">
+                                <a href="#">
+                                    <img src="images/product3.jpg" alt="">
+                                    <img src="images/product3-3.jpg" alt="">
+                                </a>
+                            </div>
+                            <!--End .item__thumnail-->
+                            <div class="item__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star no-rate"></i>
+                            </div>
+                            <!--End .item__rating-->
+                            <h3 class="item__title">
+                                <a href="#">Casual Shirt With Ruffle Hem</a>
+                            </h3>
+                            <!--End .item__title-->
+                            <p class="item__price">
+                                $122.00
+                            </p>
+                            <!--End .item__price-->
+                            <div class="item__action">
+                                <span class="item__action-first">
+                                    <a href="#" class="btn"><i class="far fa-heart"></i></a>
+                                    <a href="#" class="btn"><i class="fas fa-exchange-alt"></i></a>
+                                    <a href="#" class="btn"><i class="fas fa-eye"></i></a>
+                                </span>
+                                <span class="item__action-end">
+                                    <a href="#" class="btn">Add to Cart</a>
+                                </span>
+                            </div>
+                            <!--End .item__action-->
+                        </div>
+                        <!--End .product-box--item-->
+                    </div>
+                    <div class="item">
+                        <div class="product-box--item">
+                            <div class="item__thumbnail">
+                                <a href="#">
+                                    <img src="images/product4.jpg" alt="">
+                                    <img src="images/product4-4.jpg" alt="">
+                                </a>
+                            </div>
+                            <!--End .item__thumnail-->
+                            <div class="item__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star no-rate"></i>
+                            </div>
+                            <!--End .item__rating-->
+                            <h3 class="item__title">
+                                <a href="#">Casual Shirt With Ruffle Hem</a>
+                            </h3>
+                            <!--End .item__title-->
+                            <p class="item__price">
+                                $122.00
+                            </p>
+                            <!--End .item__price-->
+                            <div class="item__action">
+                                <span class="item__action-first">
+                                    <a href="#" class="btn"><i class="far fa-heart"></i></a>
+                                    <a href="#" class="btn"><i class="fas fa-exchange-alt"></i></a>
+                                    <a href="#" class="btn"><i class="fas fa-eye"></i></a>
+                                </span>
+                                <span class="item__action-end">
+                                    <a href="#" class="btn">Add to Cart</a>
+                                </span>
+                            </div>
+                            <!--End .item__action-->
+                        </div>
+                        <!--End .product-box--item-->
+                    </div>
+                    <div class="item">
+                        <div class="product-box--item">
+                            <div class="item__thumbnail">
+                                <a href="#">
+                                    <img src="images/product5.jpg" alt="">
+                                    <img src="images/product5-5.jpg" alt="">
+                                </a>
+                            </div>
+                            <!--End .item__thumnail-->
+                            <div class="item__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star no-rate"></i>
+                            </div>
+                            <!--End .item__rating-->
+                            <h3 class="item__title">
+                                <a href="#">Casual Shirt With Ruffle Hem</a>
+                            </h3>
+                            <!--End .item__title-->
+                            <p class="item__price">
+                                $122.00
+                            </p>
+                            <!--End .item__price-->
+                            <div class="item__action">
+                                <span class="item__action-first">
+                                    <a href="#" class="btn"><i class="far fa-heart"></i></a>
+                                    <a href="#" class="btn"><i class="fas fa-exchange-alt"></i></a>
+                                    <a href="#" class="btn"><i class="fas fa-eye"></i></a>
+                                </span>
+                                <span class="item__action-end">
+                                    <a href="#" class="btn">Add to Cart</a>
+                                </span>
+                            </div>
+                            <!--End .item__action-->
+                        </div>
+                        <!--End .product-box--item-->
+                    </div>
+                    <div class="item">
+                        <div class="product-box--item">
+                            <div class="item__thumbnail">
+                                <a href="#">
+                                    <img src="images/product6.jpg" alt="">
+                                    <img src="images/product6-6.jpg" alt="">
+                                </a>
+                            </div>
+                            <!--End .item__thumnail-->
+                            <div class="item__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star no-rate"></i>
+                            </div>
+                            <!--End .item__rating-->
+                            <h3 class="item__title">
+                                <a href="#">Casual Shirt With Ruffle Hem</a>
+                            </h3>
+                            <!--End .item__title-->
+                            <p class="item__price">
+                                $122.00
+                            </p>
+                            <!--End .item__price-->
+                            <div class="item__action">
+                                <span class="item__action-first">
+                                    <a href="#" class="btn"><i class="far fa-heart"></i></a>
+                                    <a href="#" class="btn"><i class="fas fa-exchange-alt"></i></a>
+                                    <a href="#" class="btn"><i class="fas fa-eye"></i></a>
+                                </span>
+                                <span class="item__action-end">
+                                    <a href="#" class="btn">Add to Cart</a>
+                                </span>
+                            </div>
+                            <!--End .item__action-->
+                        </div>
+                        <!--End .product-box--item-->
+                    </div>
+                    <!--End .item-->
+                    <div class="item">
+                        <div class="product-box--item">
+                            <div class="item__thumbnail">
+                                <a href="#">
+                                    <img src="images/product7.jpg" alt="">
+                                    <img src="images/product7-7.jpg" alt="">
+                                </a>
+                            </div>
+                            <!--End .item__thumnail-->
+                            <div class="item__rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star no-rate"></i>
+                            </div>
+                            <!--End .item__rating-->
+                            <h3 class="item__title">
+                                <a href="#">Casual Shirt With Ruffle Hem</a>
+                            </h3>
+                            <!--End .item__title-->
+                            <p class="item__price">
+                                $122.00
+                            </p>
+                            <!--End .item__price-->
+                            <div class="item__action">
+                                <span class="item__action-first">
+                                    <a href="#" class="btn"><i class="far fa-heart"></i></a>
+                                    <a href="#" class="btn"><i class="fas fa-exchange-alt"></i></a>
+                                    <a href="#" class="btn"><i class="fas fa-eye"></i></a>
+                                </span>
+                                <span class="item__action-end">
+                                    <a href="#" class="btn">Add to Cart</a>
+                                </span>
+                            </div>
+                            <!--End .item__action-->
+                        </div>
+                        <!--End .product-box--item-->
+                    </div>
+                    <!--End .item-->
+                </div>
+                <!--End .product-box--list -->
+                <!--End .product-detail__related-->
+            </div>
     </section>
 
     <include src="modules/footer.html">Loading...</include>

@@ -275,6 +275,9 @@
     .category-page .product-pagination__lists ul {
         justify-content: center;
     }
+    .banner-breadcrumbs ul {
+        display: block;
+    }
 }
 
 @media screen and (max-width:600px) {

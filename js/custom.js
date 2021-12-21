@@ -95,4 +95,23 @@ $(document).ready(function() {
         }
 
     });
+    // Blog__sidle
+
+    $(".slider__item--images").owlCarousel({
+        loop: true,
+        items: 1,
+        nav: false,
+        dots: false,
+        autoplay: 3000,
+        autoplayHoverPause: true
+    });
+
+    $(".sidebar-blog__body--slider").owlCarousel({
+        loop: true,
+        items: 1,
+        nav: false,
+        dots: false,
+        autoplay: 3000,
+        autoplayHoverPause: true
+    });
 });
